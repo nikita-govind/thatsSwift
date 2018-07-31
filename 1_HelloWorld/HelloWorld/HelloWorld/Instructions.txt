@@ -1,0 +1,7 @@
+First Project
+
+-- Get familiar with Xcode
+1. Add a Label to storyboard file
+2. Change background color of the main View
+-- Cmd + R
+
