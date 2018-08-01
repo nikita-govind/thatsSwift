@@ -1,0 +1,25 @@
+Second Project
+
+*  Design pattern MVC (Model-View-Controller:
+   ---------          ---------         --------------         -------
+   | DATA  |   <->    | MODEL |  <->    | CONTROLLER |  <->    |VIEW | -> Output on screen
+   ---------          ---------         --------------         ------- <- Input to the screen
+-- Modular
+-- Easy to debug
+
+1. Add a Label <I am rich> to storyboard file
+2. Change background color of the main View
+3. The positioning origin (0,0) for iOS is top-left corner
+* Link to sizes of different iOS devices: 
+4. Add an Image View
+5. Add images to Assets file:
+-- Drag and drop asked images inside the dotted holders in AppIcon
+==> If you don't fill all the holder, we will get warnings on the same when we run the project.
+To get rid of this, Project -> General -> Deployment -> toggle from "Universal" to "Iphone"
+-- Drag and drop the Main Central image we want below AppIcon in the sidebar
+* Pixel (Picture Element) vs Point, Resolution - https://youtu.be/QyjyWUrHsFc
+* https://developer.apple.com/library/ios/qa/qa1686/_index.html
+* https://developer.apple.com/ios/human-interface-guidelines/graphics/app-icon/
+
+
+
