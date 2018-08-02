@@ -10,7 +10,7 @@ Second Project
 1. Add a Label <I am rich> to storyboard file
 2. Change background color of the main View
 3. The positioning origin (0,0) for iOS is top-left corner
-* Link to sizes of different iOS devices: 
+* Link to sizes of different iOS devices:
 4. Add an Image View
 5. Add images to Assets file:
 -- Drag and drop asked images inside the dotted holders in AppIcon
@@ -20,6 +20,26 @@ To get rid of this, Project -> General -> Deployment -> toggle from "Universal" 
 * Pixel (Picture Element) vs Point, Resolution - https://youtu.be/QyjyWUrHsFc
 * https://developer.apple.com/library/ios/qa/qa1686/_index.html
 * https://developer.apple.com/ios/human-interface-guidelines/graphics/app-icon/
+
+6. Testing on an actual iPhone:
+-- Version check:
+a. Xcode version xxx.N and iPhone version aaa.N should match is their minorOS versions.
+b. If not, set the Deployment version to your iPhone's version (Project -> General -> Deployment Target)
+
+-- Code Signing:
+a. Have a unique bundleID (Project -> General -> Identity -> BundleID)
+b. "Automatically manage signing" checked.
+c. Under Team -> Add account - your iCloud account and choose your account - will create certificate for you (May take time, a lot of time)
+
+-- Seeing it run on your phone:
+a. Connect your iPhone to your machine.
+b. In the Xcode scheme dropdown, make sure the correct Device type is selected as your phone type.
+Your phone will show up there too. Set destination as "XYZ's iPhone" or Product -> Destination)
+c. Run the Project
+d. May ask you to unlock your phone, do so
+e. Keychain may ask you to enter login password many times, do so and hit "Always allow"
+f. You will see the app on the iPhone. Try to launch it, it says "Not trusted". Settings -> Device Management -> Select your app -> Trust this app
+g. Run again. Wohoo!
 
 
 
