@@ -1,0 +1,22 @@
+Fourth App
+
+* Checkout the playground
+
+1. Add images to Assets.
+2. Add a UIImageView. Extend it to cover the entire background. Fill it with image 'newBackground'
+3. Add another UIImageView for Logo. Fill it with image 'logo'
+4. Add 2 more UIImageView for a left dice and for a right dice. Fill with placeholder temporary image 'dice1' for both
+5. Add a button 'roll'
+
+1. Open Assisstant editor. Add outlets to leftDice and rightDice and action for rollButton.
+2. Initialize leftDiceRandomValue and righttDiceRandomValue
+3. Populate logic in rollButtonPressed
+
+1. viewDidLoad is invoked when the app is first launched. Add logic there.
+2. Add shakemotion
+3. Notice that App doesnt do orient well in Potrait mode
+(To test shake motion, orientation on simulator -> hardware)
+
+
+
+
