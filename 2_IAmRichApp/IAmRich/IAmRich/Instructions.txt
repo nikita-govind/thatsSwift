@@ -36,7 +36,9 @@ a. Connect your iPhone to your machine.
 b. In the Xcode scheme dropdown, make sure the correct Device type is selected as your phone type.
 Your phone will show up there too. Set destination as "XYZ's iPhone" or Product -> Destination)
 c. Run the Project
-d. May ask you to unlock your phone, do so
+d. May ask you to unlock your phone, do so.
+* If it is unlocked and still throws the same error, hit Shift+Cmd+2. Now right click on your device -> Unpair.
+Now reconnect your iPhone again. iTunes will open and ask you to Trust the machine on your iPhone. Hit Trust and try running the project now. 
 e. Keychain may ask you to enter login password many times, do so and hit "Always allow"
 f. You will see the app on the iPhone. Try to launch it, it says "Not trusted". Settings -> Device Management -> Select your app -> Trust this app
 g. Run again. Wohoo!
