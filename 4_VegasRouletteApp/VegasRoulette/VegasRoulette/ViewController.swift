@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        // We want a random dice face when we start the app
         updateDiceImages()
     }
 
@@ -37,9 +38,11 @@ class ViewController: UIViewController {
         updateDiceImages();
     }
     
+    // Shake gesture == hitting "Roll" button
     override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?)
     {
-        updateDiceImages();
+        rollButtonPressed(0)
+        // Or rollButtonPressed([]) but cannot send arg nil like this: rollButtonPressed(nil)
     }
     
     ////////////////////////////// Other methods //////////////////////////////

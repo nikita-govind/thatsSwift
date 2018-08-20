@@ -8,10 +8,10 @@ print(str);
 
 // Types: Int - Float - Double - Bool - String
 let wholeNos : Int = 10;
-let text : String = "Hi";
-let boolean : Bool = true;
 let decimalShort : Float = 1.2;
 let decimalLongPrecision : Double = 1.242556464;
+let boolean : Bool = true;
+let text : String = "Hi";
 
 // Variables
 var myAge : Int = 32;
