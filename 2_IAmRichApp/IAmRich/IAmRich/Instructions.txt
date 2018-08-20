@@ -14,7 +14,7 @@ Second Project
 4. Add an Image View
 5. Add images to Assets.xcassets file:
 -- Drag and drop asked images inside the dotted holders in AppIcon
-(If you name them in the format Icon-20@3x.png, it will auto detect)
+(If you name them in the format Icon-20@3x.png i.e. IconeName-pixels@sizex.png, it will auto detect)
 ==> If you don't fill all the holder, we will get warnings regarding the same when we run the project.
 To get rid of this, Project -> General -> Deployment -> toggle from "Universal" to "Iphone"(or iPad, depending on what you are testing)
 -- Drag and drop the Main Central image we want below AppIcon in the sidebar
